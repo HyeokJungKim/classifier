@@ -1,0 +1,6 @@
+<h1>Welcome to Harry Potter and Marvel Classifier.</h1> <br>
+<%= form_tag '/classify' do  %>
+<%= label_tag "Enter a Quote:" %> <br>
+<%= text_area_tag :content  %> <br>
+<%= submit_tag "Classify" %>
+<% end %>
